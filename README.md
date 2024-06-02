@@ -19,7 +19,7 @@ On host/converter:
     2   GND             GND
     3  ~RDY             GP4
     4   RXD             GP2
-    5  ~RTY             CC
+    5  ~RTY             VCC
     6   NC
     7   NC
     8   5V              VCC
