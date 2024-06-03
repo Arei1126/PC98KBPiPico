@@ -1,5 +1,5 @@
 #  PC-9801 Series Keyboard Converter with Raspberry Pi Pico
-Intended for 2nd gen PC-9801 keyboard (no NFER key, mini DIN 8 pin) ]
+Intended for 2nd gen PC-9801 keyboard (no NFER key, mini DIN 8 pin) 
 It dosen't support controll command through Txd, so it can't control keyboard such as LEDs.
 To do this, ~RST must be connected to GPIO which Hardware Serial2 available. (GPIO3 is not)
 ~~~
