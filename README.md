@@ -18,7 +18,7 @@ On host/converter:
     1  ~RST(TXD)        GP3
     2   GND             GND
     3  ~RDY             GP4
-    4   RXD             GP2
+    4   RXD             GP1
     5  ~RTY             VCC
     6   NC
     7   NC
