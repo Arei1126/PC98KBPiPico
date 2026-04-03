@@ -18,7 +18,7 @@ uint8_t key_state[6] = {0};
  * 25cps (40ms周期) のBreakを吸い取るため、30msの保留時間を設定。
  */
 uint32_t pending_release_time[6] = {0};
-const uint32_t RELEASE_DELAY_MS = 30; 
+const uint32_t RELEASE_DELAY_MS = 5; 
 
 // ==========================================
 // 状態管理関数群
