@@ -2,6 +2,10 @@
 Intended for 2nd gen PC-9801 keyboard (no NFER key, mini DIN 8 pin) 
 It dosen't support controll command through Txd, so it can't control keyboard such as LEDs.
 To do this, ~RST must be connected to GPIO which Hardware Serial2 available. (GPIO3 is not)
+
+~~~
+Boad: [RaspberryPi Pico](https://github.com/earlephilhower/arduino-pico)
+USB Stack: Adafruit TinyUSB
 ~~~
 On host/converter:
     8Pin mini DIN
@@ -15,7 +19,7 @@ On host/converter:
 
     Pin mini DIN        Raspberry Pi Pico
     ---------------------------------------------
-    1  ~RST(TXD)        GP3
+    1  ~RST(TXD)        GP0
     2   GND             GND
     3  ~RDY             GP4
     4   RXD             GP1
